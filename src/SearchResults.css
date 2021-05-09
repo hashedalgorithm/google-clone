@@ -1,0 +1,57 @@
+.SR_topbar {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  border-bottom: 0.1px solid rgb(206, 206, 206);
+}
+.SR_logo {
+  margin: 20px 30px;
+  object-fit: contain;
+}
+.SR_searchbar {
+  margin: 25px 30px;
+  width: 600px;
+  height: 30px;
+  border: 2px solid rgba(235, 235, 235, 0.664);
+  border-radius: 30px;
+  padding: 0.5em 1em;
+}
+.SR_topbartop {
+  display: flex;
+  width: auto;
+}
+.fa-shapes {
+  margin-right: 10px;
+}
+.SR_topbarright {
+  margin-right: 30px;
+  margin-top: 20px;
+  width: auto;
+  margin-left: auto;
+}
+.SR_topbar_navbar {
+  margin: -30px auto auto 150px;
+  width: 650px;
+  display: flex;
+  font-size: 14px;
+}
+.SR_topbar_navbar_list {
+  display: flex;
+  cursor: pointer;
+}
+.SR_topbar_navbar_list1 {
+  display: flex;
+  cursor: pointer;
+  justify-content: flex-end;
+}
+.SR_topbar_navbar_list_item {
+  height: 30px;
+}
+.SR_topbar_navbar_list_item_active {
+  border-bottom: 3px solid rgb(21, 169, 206);
+}
+.SR_Results {
+  width: 600px;
+  margin: -20px 200px;
+}
